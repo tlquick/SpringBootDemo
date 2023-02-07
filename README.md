@@ -1,6 +1,6 @@
 # SpringBootDemo
 Demo project to illustrate how to connect a postgres database to a springboot project (using hibernate). <br>
-This example uses a Student entity.
+This example uses a Student entity. OpenAPI is used to document the endpoints: use /v3/api-docs or /swagger-ui.html to view API documentation.
 application.properties stores the configuration for the database connection: <br>
 ```
 spring.datasource.url=jdbc:postgresql://localhost:5432/student

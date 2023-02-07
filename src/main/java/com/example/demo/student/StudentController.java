@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController // allows this class to have restful endpoints
-@RequestMapping(path = "api/v1/")
+@RequestMapping(path = "/")
 public class StudentController {
 
 	private final StudentService studentService;

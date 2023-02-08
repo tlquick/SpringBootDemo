@@ -1,7 +1,7 @@
 # SpringBootDemo
 Demo project to illustrate how to connect a postgres database to a springboot project (using hibernate). <br>
 This example uses a Student entity. <br>
-### version 1.0
+### Version 1.0
 OpenAPI is used to document the endpoints: use /v3/api-docs or /swagger-ui.html to view API documentation. <br>
 application.properties stores the configuration for the database connection: <br>
 ```
@@ -36,4 +36,4 @@ public void addNewStudent(Student student) {
 	} 
   ```
 ### Version 2
-Application is dockerised and docker-compose is used to build and manage app and db togther for deployment.
+Application is dockerised and docker-compose is used to build and manage app and db togther for remote deployment.

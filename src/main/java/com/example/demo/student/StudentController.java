@@ -25,7 +25,11 @@ public class StudentController {
 		this.studentService = studentService;
 	}
 
-	@GetMapping(path = "/students") // makes this method a restful endpoint at /
+	@GetMapping(path = "/") // makes this method a restful endpoint at /
+	public String getBanner() {
+		return "Welcome to my springboot-postgres api; use /swagger-ui.html to view the endpoints in this project or /v3/api-docs";
+	}
+	@GetMapping(path = "/students")
 	public List<Student> getStudents() {
 		return studentService.getStudents();
 	}

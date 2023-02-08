@@ -36,4 +36,8 @@ public void addNewStudent(Student student) {
 	} 
   ```
 ### Version 2
-Application is dockerised and docker-compose is used to build and manage app and db togther for remote deployment.
+Application is dockerised and docker-compose is used to build and manage app and db together for remote deployment.
+
+### Version 3
+Remove docker-compose and change properties to use docker container in render with remote postgres database (also in render). <br>
+Live site: https://springbootstudentpostgres.onrender.com/

@@ -10,6 +10,6 @@ RUN mvn -f pom.xml install
 #
 FROM openjdk:17-oracle
 COPY --from=build /target/demo-0.0.1-SNAPSHOT.jar demo.jar
-# ENV PORT=8081
-EXPOSE 8081
+# ENV PORT=8080
+EXPOSE 8080
 ENTRYPOINT ["java","-jar","demo.jar"]

@@ -24,7 +24,6 @@ public class DemoApplication {
 		Student tracy = new Student("tracy", "tlquick@gmail.com", LocalDate.of(2000, 2, 5));
 		Student tim = new Student("tim", "timmy@gmail.com", LocalDate.of(1990, 6, 10));
 		System.out.println("Saving data to student table");
-		repository.save(tracy);
-		repository.save(tim);
+		repository.saveAll(List.of(tracy, tim));
     }
 }

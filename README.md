@@ -18,7 +18,7 @@ server.error.include-message=always
 Student.java defines the Student object <br>
 StudentConfig.java contains some sample data to load. <br>
 StudentController.java is a rest controller containing the defined endpoints. In this case localhost:8080/api/v1 is the base url defined by @RequestMapping. CRUD mappings are also defined 
-eg @DeleteMapping uses localhost:8080/api/v1/atudents/{studentId}. <br>
+eg @DeleteMapping uses localhost:8080/api/v1/students/{studentId}. <br>
 StudentRepository.java uses JpaRepository<Student, Long> to find a particular student eg
 ```
 Optional<Student> findStudentByEmail(String email);

@@ -1,4 +1,4 @@
-# SpringBootDemo
+# SpringBootStudent
 Demo project to illustrate how to connect a postgres database to a springboot project (using hibernate). <br>
 This example uses a Student entity. <br>
 ### Version 1.0
